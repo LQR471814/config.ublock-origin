@@ -1,8 +1,18 @@
 {
-  "timeStamp": 1745702308103,
+  "timeStamp": 1745703505941,
   "version": "1.63.2",
   "userSettings": {
-    "importedLists": []
+    "externalLists": "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/pro.mini.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/spam-tlds-ublock.txt\nhttps://raw.githubusercontent.com/iam-py-test/uBlock-combo/refs/heads/main/list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/annoyance_list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/block_third_party_fonts.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/click2load.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/privacy_essentials.txt",
+    "importedLists": [
+      "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/BrowseWebsitesWithoutLoggingIn.txt",
+      "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/pro.mini.txt",
+      "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/spam-tlds-ublock.txt",
+      "https://raw.githubusercontent.com/iam-py-test/uBlock-combo/refs/heads/main/list.txt",
+      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/annoyance_list.txt",
+      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/block_third_party_fonts.txt",
+      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/click2load.txt",
+      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/privacy_essentials.txt"
+    ]
   },
   "selectedFilterLists": [
     "user-filters",
@@ -13,8 +23,26 @@
     "ublock-unbreak",
     "easylist",
     "easyprivacy",
+    "adguard-spyware",
+    "adguard-spyware-url",
     "urlhaus-1",
-    "plowe-0"
+    "plowe-0",
+    "fanboy-cookiemonster",
+    "ublock-cookies-easylist",
+    "fanboy-social",
+    "easylist-chat",
+    "easylist-newsletters",
+    "easylist-notifications",
+    "easylist-annoyances",
+    "ublock-annoyances",
+    "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/privacy_essentials.txt",
+    "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/click2load.txt",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/spam-tlds-ublock.txt",
+    "https://raw.githubusercontent.com/iam-py-test/uBlock-combo/refs/heads/main/list.txt",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/pro.mini.txt",
+    "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/block_third_party_fonts.txt",
+    "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/annoyance_list.txt",
+    "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/BrowseWebsitesWithoutLoggingIn.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [
@@ -24,6 +52,6 @@
   ],
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
-  "hostnameSwitchesString": "no-large-media: behind-the-scene false",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-cosmetic-filtering: * true",
   "userFilters": "! Nov 18, 2024 https://www.youtube.com\nwww.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope\nwww.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)\nwww.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)\nwww.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)\nwww.youtube.com##ytd-notification-topbar-button-renderer.ytd-masthead.style-scope\nwww.youtube.com###header > .ytd-rich-grid-renderer.style-scope\nwww.youtube.com###metadata-line\nwww.youtube.com##.YtSegmentedLikeDislikeButtonViewModelSegmentedButtonsWrapper\nwww.youtube.com###owner-sub-count\nwww.youtube.com###ytd-watch-info-text\nwww.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope\nwww.youtube.com##ytd-horizontal-card-list-renderer.ytd-structured-description-content-renderer.style-scope\nwww.youtube.com###structured-description\nwww.youtube.com###container > .yt-chip-cloud-renderer.style-scope\nwww.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope\nwww.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape\n\n! Nov 19, 2024 https://www.youtube.com\nwww.youtube.com##ytd-guide-entry-renderer:has(a[title=Shorts])\nwww.youtube.com##ytd-guide-entry-renderer:has(a[title=Subscriptions])\nwww.youtube.com##ytd-guide-entry-renderer:has(a[title=Help])\nwww.youtube.com##ytd-guide-entry-renderer:has(a[title=\"Send feedback\"])\nwww.youtube.com##div#footer\nwww.youtube.com##.ytd-compact-video-renderer.style-scope.badges\nwww.youtube.com##ytd-badge-supported-renderer\nwww.youtube.com##ytd-live-chat-frame\nwww.youtube.com##div#teaser-carousel\nwww.youtube.com##ytd-button-renderer:has(a[aria-label=\"Sign in\"])\nwww.youtube.com##div#chat-container\nwww.youtube.com##.lockup.ytd-item-section-renderer\nwww.youtube.com##ytd-mini-guide-entry-renderer:has(a[title=Shorts])\nwww.youtube.com##ytd-mini-guide-entry-renderer:has(a[title=Subscriptions])\nwww.youtube.com##ytd-rich-item-renderer:has(yt-lockup-view-model div.badge-shape-wiz__text:has-text(\"Mix\"))\n\n! Jan 16, 2025 https://www.youtube.com\nwww.youtube.com###comments > .ytd-comments.style-scope\nwww.youtube.com##ytd-watch-next-secondary-results-renderer\nwww.youtube.com##ytd-watch-flexy div#secondary:style(width: fit-content !important; min-width: 0 !important)\nwww.youtube.com##ytd-browse[page-subtype=home]\nwww.youtube.com##.html5-video-container:style(width: 100% !important; height: 100% !important)\nwww.youtube.com##.html5-video-player video:style(width: 100% !important; height: 100% !important; left: 0 !important)\n\n! Feb 12, 2025 https://genius.com\ngenius.com##div[class*=RightSidebar]"
 }
