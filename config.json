@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1794528556894,
-  "version": "1.76.0",
+  "timeStamp": 1794628630222,
+  "version": "1.76.2",
   "userSettings": {
     "externalLists": "https://filters.adtidy.org/extension/ublock/filters/3.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/Mudskipper875/Block-News-Websites/refs/heads/master/all.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/pro.mini.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/spam-tlds-ublock.txt\nhttps://raw.githubusercontent.com/iam-py-test/uBlock-combo/refs/heads/main/list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/annoyance_list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/block_third_party_fonts.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/click2load.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/privacy_essentials.txt",
     "importedLists": [
@@ -45,8 +45,8 @@
     "https://filters.adtidy.org/extension/ublock/filters/3.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/pro.mini.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/spam-tlds-ublock.txt",
-    "https://raw.githubusercontent.com/iam-py-test/uBlock-combo/refs/heads/main/list.txt",
-    "https://raw.githubusercontent.com/Mudskipper875/Block-News-Websites/refs/heads/master/all.txt"
+    "https://raw.githubusercontent.com/Mudskipper875/Block-News-Websites/refs/heads/master/all.txt",
+    "https://raw.githubusercontent.com/iam-py-test/uBlock-combo/refs/heads/main/list.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [
@@ -147,6 +147,9 @@
     "",
     "! Oct 22, 2026 https://electronics.stackexchange.com",
     "stackexchange.com##div#sidebar",
-    "mathoverflow.net##div#sidebar"
+    "mathoverflow.net##div#sidebar",
+    "",
+    "! Nov 13, 2026 https://www.youtube.com",
+    "www.youtube.com##grid-shelf-view-model"
   ]
 }
